@@ -31,9 +31,10 @@
                 </div>
                 
                 <div id="cajon3">
-                    <button id="botonRegistro" class="btn btn-outline-success" type="button" onclick="redirect()">{{ buttonText }}</button>
-                  </div>
-                  
+                    <button id="botonRegistro" class="btn btn-outline-success" type="button" onclick="redirect()">Registrate</button>
+                    <button id="botonInicioSesion" class="btn btn-outline-success" type="button" onclick="redirect()">Iniciar Sesión</button>
+                </div>
+
                 <div class="clearfix"></div>
             </div>
         </header>
@@ -191,11 +192,20 @@
     </div>
     <footer>
         <div class="container footer_container">
-            <p>Todos los derechos reservados &copy; 2024</p>
-            <ul class="footer_ul">
-                <li class="footer_li"><a href="javascript:void(0);" (click)="scrollToSection('startup_title2')">Nosotros</a></li>
-                <li class="footer_li"><a href="javascript:void(0);" (click)="scrollToSection('valores1')">Nuestro Equipo</a></li>
-            </ul>
+            <div class="contact-info">
+                <h4>Contacto</h4>
+                <p><i class="bi bi-envelope"></i> ServiFix@bussiness.com</p>
+                <p><i class="bi bi-phone"></i> 932687623</p>
+                <!-- Agrega más información de contacto si es necesario -->
+            </div>
+            <div class="footer-menu">
+                <h4>Enlaces</h4>
+                <ul class="footer_ul">
+                    <li class="footer_li"><a href="javascript:void(0);" onclick="scrollToSection('startup_title2')">Nosotros</a></li>
+                    <li class="footer_li"><a href="javascript:void(0);" onclick="scrollToSection('valores1')">Nuestro Equipo</a></li>
+                    <!-- Agrega más enlaces según tu sitio web -->
+                </ul>
+            </div>
         </div>
     </footer>
 

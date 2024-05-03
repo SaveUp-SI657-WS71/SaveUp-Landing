@@ -1,17 +1,7 @@
 var redirectTimeout;
-var buttonText = 'Registrarse';
 
-function startTimeout() {
-  redirectTimeout = setTimeout(() => {
-    toggleButtonText();
-    startTimeout();
-  }, 3000);
-}
 
-function toggleButtonText() {
-  buttonText = buttonText === 'Registrarse' ? 'Iniciar sesión' : 'Registrarse';
-  updateButtonText(); // Llama a la función para actualizar el texto del botón
-}
+
 
 function init() {
   startTimeout();

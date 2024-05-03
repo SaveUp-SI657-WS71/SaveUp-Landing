@@ -36,8 +36,8 @@ h2 {
 footer {
     width: 100%;
     background-color: #67C5C8;
-    height: auto;
-    margin-top: 50px;
+    color: #fff;
+    padding: 20px 0;
 }
 
 footer img {
@@ -150,19 +150,20 @@ footer a {
   
  
   #cajon3 {
-    float: left;
-    width: 20%;
+    display: flex;
+    justify-content: space-between; 
+    width: 30%; 
     margin: 15px;
     margin-top: 29px;
 }
-#botonRegistro {
+#botonRegistro,#botonInicioSesion {
     color: #67C5C8;
     border: #67C5C8 solid 2px;
     margin-left: 40px;
     float: left;
 }
 
-#botonRegistro:hover {
+#botonRegistro:hover,#botonInicioSesion:hover {
     background-color: #67C5C8;
     color: white;
 }
