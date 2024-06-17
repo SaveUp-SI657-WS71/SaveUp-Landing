@@ -150,20 +150,20 @@ footer a {
   
  
   #cajon3 {
-    display: flex;
-    justify-content: space-between; 
+    float: left;
+
     width: 30%; 
     margin: 15px;
     margin-top: 29px;
 }
-#botonRegistro,#botonInicioSesion {
+#botonRegistro {
     color: #67C5C8;
     border: #67C5C8 solid 2px;
     margin-left: 40px;
     float: left;
 }
 
-#botonRegistro:hover,#botonInicioSesion:hover {
+#botonRegistro:hover {
     background-color: #67C5C8;
     color: white;
 }
