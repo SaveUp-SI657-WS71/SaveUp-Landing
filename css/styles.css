@@ -150,25 +150,25 @@ footer a {
   
  
   #cajon3 {
-    float: left;
-
+    display: flex;
+    justify-content: center; 
     width: 30%; 
     margin: 15px;
     margin-top: 29px;
 }
-#botonRegistro {
+#botonVerSitioWeb {
     color: #67C5C8;
     border: #67C5C8 solid 2px;
     margin-left: 40px;
     float: left;
 }
 
-#botonRegistro:hover {
+#botonVerSitioWeb:hover {
     background-color: #67C5C8;
     color: white;
 }
 @media screen and (max-width: 506px) {
-    #botonRegistro {
+    #botonVerSitioWeb {
         color: #67C5C8;
         border: #67C5C8 solid 2px;
         margin-left: 40px;
