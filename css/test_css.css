@@ -1,0 +1,350 @@
+/* styles.css */
+@font-face {
+    font-family: 'Anek Bangla Light';
+    src: url('../assets/fonts/AnekBangla300.ttf');
+}
+
+@font-face {
+    font-family: 'Anek Bangla Bold';
+    src: url('../assets/fonts/AnekBangla500.ttf');
+}
+@font-face {
+    font-family: 'Saira Semi Condensed Regular';
+    src: url('../assets/fonts/SairaSemiCondensedRegular.ttf');
+}
+/* Estilos para el Topbar */
+.navbar{
+    background-color: #152624; /* Cambia el color de fondo según tus necesidades */
+    height: 100%; /* Modificado */
+}
+
+.navbar-brand{
+    color: #212121; /* Cambia el color del texto según tus necesidades */
+    font-family: 'Saira Semi Condensed Regular', sans-serif;
+    font-size: 150%; /* Modificado */
+}
+
+.navbar.nav .nav-item .nav-link {
+    color: #333; /* Cambia el color del texto según tus necesidades */
+    font-family: 'Anek Bangla Bold', sans-serif;
+    font-size: 100%; /* Modificado */
+    font-weight: bold;
+}
+
+/* Estilos para el Carrusel */
+
+.carrousel-slide{
+    height: 100%; /* Modificado */
+}
+.carousel {
+    margin-bottom: 2%; /* Modificado */
+    height: 100%; /* Modificado */
+}
+
+.carousel-item {
+    height: 100%; /* Modificado */
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-caption {
+    bottom: 2.5%; /* Modificado */
+}
+
+.carousel-caption h5 {
+    font-size: 20%; /* Modificado */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.carousel-item img {
+    height: 50%; /* Modificado */
+    object-fit: cover; /* Esto asegura que las imágenes se redimensionen correctamente */
+}
+.carousel-image {
+    transition: all 1s ease; /* Ajusta la duración y el tipo de transición según tus necesidades */
+    filter: blur(4px) brightness(70%); /* Ajusta el nivel de difuminado y contraste según tus necesidades */
+    opacity: 1; /* Ajusta la opacidad según tus necesidades */
+}
+.carousel-text h5{
+    padding-bottom: 100%;
+    position: absolute;
+    top: 30%; /* Modificado */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    align-content: center;
+    font-size: 100%; /* Modificado */
+}
+/* Estilos para las secciones Quienes Somos y Nuestro Equipo */
+section {
+    padding: 10% 0; /* Modificado */
+}
+.section-title{
+    font-family: 'Anek Bangla Bold', sans-serif;
+    font-size: 400%; /* Modificado */
+    text-align: center;
+    margin-bottom: 5%; /* Modificado */
+}
+.section-text {
+    font-family: 'Anek Bangla Light', sans-serif;
+    font-size: 200%; /* Modificado */
+    text-align: center;
+    margin: 5%; /* Modificado */
+}
+.section-product{
+    font-family: 'Anek Bangla Light', sans-serif;
+    margin: 2%; /* Modificado */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 3%; /* Modificado */
+}
+
+.card {
+    margin: 2%; /* Modificado */
+    height: 100%; /* Modificado */
+    border-radius: 10px;
+    width: 100%; /* Modificado */
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.33);
+    transition: 0.3s;
+    background-color: #e8764f;
+}
+
+.card-body {
+    overflow: auto;
+    font-size: 2vw;
+}
+.card-title {
+    font-family: 'Anek Bangla Bold', sans-serif;
+    font-size: 100%; /* Modificado */
+    font-weight: bold;
+    text-align: center;
+    margin: 1%; /* Modificado */
+}
+.card-text {
+    font-family: 'Anek Bangla Light', sans-serif;
+    font-size: 70%; /* Modificado */
+    text-align: justify;
+    font-weight: bold;
+}
+/* Estilos para el Footer */
+footer {
+    background-color: #e8764f; /* Cambia el color de fondo según tus necesidades */
+    padding: 4% 0; /* Modificado */
+}
+body{
+    background-color: #ffdcbe;
+}
+.btn {
+    border-color: #ffdcbe;
+    font-size: 100%; /* Modificado */
+    font-family: 'Saira Semi Condensed Regular', sans-serif;
+    color: #ffdcbe/* Cambia a tu color preferido */
+}
+
+.btn-primary{
+    background-color: #fd6354;
+    border-color: rgba(248, 51, 51, 0.93);
+    font-size: 200%; /* Modificado */
+    font-family: 'Saira Semi Condensed Regular', sans-serif;
+    color: #ffdcbe/* Cambia a tu color preferido */
+}
+.btn-primary:hover{
+    background-color: rgba(248, 51, 51, 0.93);
+    border-color: rgb(255, 220, 190);
+    font-size: 200%; /* Modificado */
+    font-family: 'Saira Semi Condensed Regular', sans-serif;
+    color: #ffdcbe/* Cambia a tu color preferido */
+}
+
+
+.container{
+    justify-content: center;
+    align-items: center;
+}
+
+
+.social-link {
+    display: inline-block;
+}
+.footer-link {
+    color: inherit;
+    text-decoration: none;
+    font-size: 100%; /* Modificado */
+    font-family: 'Anek Bangla Bold', sans-serif;
+    font-weight: bold;
+}
+.footer-link:hover {
+    color: #ffffff; /* Cambia el color del texto al pasar el cursor por encima */
+}
+.img-fluid .rounded-circle img{
+    width: 200%; /* Modificado */
+    color: #212121;
+}
+@media (max-width: 900px) {
+    .navbar {
+        height: 50%; /* Modificado */
+    }
+    .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .navbar-brand {
+        font-size: 100%; /* Modificado */
+    }
+
+    .navbar.nav .nav-link {
+        font-size: 16px;
+    }
+
+    .carousel-item {
+        height: 16%; /* Modificado */
+    }
+    .carousel{
+        height : 70%; /* Modificado */
+    }
+
+    .carousel-caption{
+        font-size: 10%; /* Modificado */
+    }
+
+    .section-title {
+        font-size: 200%; /* Modificado */
+    }
+
+    .section-text {
+        font-size: 150%; /* Modificado */
+        margin: 2% 10% 0% 10%;
+        text-align: justify;
+    }
+
+    .card {
+        width: 100%; /* Modificado */
+        height: 200%; /* Modificado */
+        align-content: center;
+    }
+
+    .card-title {
+        font-size: 400%; /* Modificado */
+        margin: 5%;
+    }
+
+    .card-text {
+        font-size: 100%; /* Modificado */
+    }
+
+    .btn {
+        font-size: 70%; /* Modificado */
+    }
+    .btn-primary{
+        margin-top: 5%;
+        font-size: 200%;
+    }
+    .btn-primary:hover {
+
+        font-size: 200%; /* Modificado */
+    }
+    .carousel-text {
+        top: 30%;
+        font-size: 1%; /* Modificado */
+    }
+    .carousel-text h5{
+        position: relative;
+        font-size: 60%;
+        padding-bottom: 10%;
+    }
+    .img-fluid{
+        width: 60%;
+    }
+    .footer-link{
+        font-size: 150%;
+    }
+}
+/* Estilos para dispositivos con pantalla de hasta 600px de ancho */
+@media (max-width: 600px) {
+    .navbar {
+        height: 50%; /* Modificado */
+    }
+    .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .navbar-brand {
+        font-size: 100%; /* Modificado */
+    }
+
+    .navbar.nav .nav-link {
+        font-size: 16px;
+    }
+
+    .carousel-item {
+        height: 16%; /* Modificado */
+    }
+    .carousel{
+        height : 70%; /* Modificado */
+    }
+
+    .carousel-caption{
+        font-size: 10%; /* Modificado */
+    }
+
+    .section-title {
+        font-size: 200%; /* Modificado */
+    }
+
+    .section-text {
+        font-size: 150%; /* Modificado */
+        margin: 2% 10% 0% 10%;
+        text-align: justify;
+    }
+
+    .card {
+        width: 100%; /* Modificado */
+        height: 200%; /* Modificado */
+        align-content: center;
+    }
+
+    .card-title {
+        font-size: 400%; /* Modificado */
+        margin: 5%;
+    }
+
+    .card-text {
+        font-size: 300%; /* Modificado */
+    }
+
+    .btn {
+        font-size: 70%; /* Modificado */
+    }
+    .btn-primary{
+        margin-top: 5%;
+        font-size: 200%;
+    }
+    .btn-primary:hover {
+
+        font-size: 200%; /* Modificado */
+    }
+    .carousel-text {
+        top: 30%;
+        font-size: 1%; /* Modificado */
+    }
+    .carousel-text h5{
+        position: relative;
+        font-size: 60%;
+        padding-bottom: 0%;
+    }
+    .img-fluid{
+        width: 60%;
+    }
+    .footer-link{
+        font-size: 150%;
+    }
+}
+
