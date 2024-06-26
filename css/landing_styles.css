@@ -39,7 +39,7 @@
 }
 
 .carousel-item {
-    height: 54rem; /* Cambia la altura según tus necesidades */
+    height: 60rem; /* Cambia la altura según tus necesidades */
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -73,10 +73,13 @@ section {
     margin-bottom: 5rem;
 }
 .section-product{
+    font-family: 'Anek Bangla Light', sans-serif;
+    margin: 2rem;
     display: flex;
-    justify-content: right;
+    text-align: center;
+    justify-content: center;
     flex-wrap: wrap;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .card {
@@ -181,7 +184,7 @@ body{
 /* Estilos para dispositivos con pantalla de hasta 600px de ancho */
 @media (max-width: 600px) {
     .navbar {
-        height: 4rem;
+        height: 7rem;
     }
     .row {
         display: flex;
