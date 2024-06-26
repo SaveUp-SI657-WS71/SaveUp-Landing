@@ -10,24 +10,27 @@
 </head>
 <body>
     <!-- Topbar -->
-    <nav class="navbar navbar-expand-md navbar-light" style="background-color: #e8764f;">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-sm  navbar-light" style="background-color: #e8764f;">
+        <div class="container-fluid d-flex justify-content-between">
             <a class="navbar-brand" href="#">Y U M B L E</a>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#nuestro-producto">Nuestro Producto</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#quienes_somos">Quienes Somos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#nuestro_equipo">Nuestro Equipo</a>
-                    </li>
-                </ul>
-                <div class="d-flex">
-                    <button class="btn btn-outline-success" type="button" onclick="window.location.href='https://websitesaveup.netlify.app/'">Ver página web</button>
+            <div class="d-flex">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#nuestro-producto">Nuestro Producto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#quienes_somos">Quienes Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#nuestro_equipo">Nuestro Equipo</a>
+                        </li>
+                    </ul>
                 </div>
+                <button class="btn btn-outline-success" type="button" onclick="window.location.href='https://websitesaveup.netlify.app/'">Ver página web</button>
             </div>
         </div>
     </nav>
@@ -38,8 +41,8 @@
             <!-- Aquí puedes agregar tantos elementos de carrusel como necesites -->
             <div class="carousel-item active">
                 <img src="assets/images/carrousel/carrousel_image.jpg" class="carousel-image d-block w-100 carousel-image" alt="...">
-                <div class="carousel-caption d-none d-md-block carousel-text">
-                    <h5 class="fs-1 fs-sm-2 fs-md-3 fs-lg-4 fs-xl-5">Nuestros repartidores están listos para llevar tus pedidos
+                <div class="carousel-caption carousel-text">
+                    <h5 class="fs-1 fs-sm-2 fs-md-3 fs-lg-4 fs-xl-5 text-sm-start text-md-center">Nuestros repartidores están listos para llevar tus pedidos
                         directamente a tu puerta, utilizando la última tecnología
                         para garantizar una entrega rápida y eficiente</h5>
                 </div>
@@ -47,8 +50,8 @@
             <!-- Nuevo slide -->
             <div class="carousel-item">
                 <img src="assets/images/carrousel/carrousel_image2.jpg" class="carousel-image d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block carousel-text">
-                    <h5 class="fs-1 fs-sm-2 fs-md-3 fs-lg-4 fs-xl-5">Únete a la satisfacción de nuestros clientes, como ella,
+                <div class="carousel-caption carousel-text">
+                    <h5 class="fs-1 fs-sm-2 fs-md-3 fs-lg-4 fs-xl-5 text-sm-start text-md-center">Únete a la satisfacción de nuestros clientes, como ella,
                         que ya han descubierto los beneficios de comprar inteligentemente
                         con nosotros</h5>
                 </div>
@@ -57,8 +60,8 @@
             <!-- Nuevo slide -->
             <div class="carousel-item">
                 <img src="assets/images/carrousel/carrousel_image3.jpg" class="carousel-image d-block w-100 " alt="...">
-                <div class="carousel-caption d-none d-md-block carousel-text">
-                    <h5 class="fs-1 fs-sm-2 fs-md-3 fs-lg-4 fs-xl-5">Cada producto está cuidadosamente organizado para
+                <div class="carousel-caption carousel-text">
+                    <h5 class="fs-1 fs-sm-2 fs-md-3 fs-lg-4 fs-xl-5 text-sm-start text-md-center">Cada producto está cuidadosamente organizado para
                         asegurarnos de que todo llegue en perfectas condiciones
                         y a tiempo</h5>
                 </div>
@@ -78,12 +81,12 @@
 
     <section id="nuestro-producto">
         <h1 class="section-title">Nuestro Producto</h1>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
+        <div class="container d-flex justify-content-center">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-sm-12 d-flex justify-content-center">
                     <img src="assets/images/saveUP_logo.png" class="img-fluid" alt="Producto 1">
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-12">
                     <p class="section-product">
                         Ofrecemos una amplia variedad de productos enlatados y envasados
                         de alta calidad a precios asequibles. Nuestros productos son
@@ -108,7 +111,7 @@
                 </div>
             </div>
         </div>
-        <div class="container ">
+        <div class="container">
             <div class="row justify-content-center">
                 <!-- Aquí puedes agregar tantas cards como necesites -->
                 <div class="col-xl-4 col-lg-6 col-md-8 col-sm-12">
